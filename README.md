@@ -1,2 +1,2 @@
-# neog-fun-with-triangless
+# funWithTriangles
 Created with CodeSandbox

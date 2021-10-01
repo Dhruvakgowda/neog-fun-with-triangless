@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+#nav {
+  text-align: right;
+}
+.bg {
+  background-color: #3d830b;
+  border-radius: 1rem;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: white;
+}
+.nav-bg {
+  background-color: #3d830b;
+  padding: 1rem 0.8rem;
+}
+.center {
+  text-align: center;
+}
+.margin {
+  margin: 1rem;
+}
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+.margin-top {
+  margin-top: 1.5rem;
+}
+.lable-center {
+  display: block;
+  text-align: center;
+}
+.text {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.nav-text {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.active {
+  font-weight: bold;
+}
+.input {
+  border-radius: 0.2rem;
+  height: 2rem;
+  text-align: center;
+}
+.button {
+  background-color: #3d830b;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.1rem;
+}
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #3d830b;
+  font-size: 1.1rem;
+}
+
+lable {
+  font-size: larger;
+}
+.message {
+  font-size: x-large;
+  border: 1px solid #3d830b;
+  background-color: #3d830b;
+  color: white;
+  max-width: 50%;
+  margin: auto;
+}
+
+img {
+  width: 4%;
+  height: 4%;
+}
+
+a:hover {
+  text-decoration: underline;
+}

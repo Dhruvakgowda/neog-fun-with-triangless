@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="nav-bg">
+      <h1 class="text">Fun with Triangles</h1>
+      <nav id="nav">
+        <a href="index.html" class="link nav-text">Is Triangle?</a>
+        <a href="quiz.html" class="link nav-text">Quiz</a>
+        <a href="hypotenuse.html" class="link nav-text active">Hypotenuse</a>
+        <a href="area.html" class="link nav-text">Area of Triangle</a>
+      </nav>
+    </div>
+    <form class="center" onsubmit="return false">
+      <h2 class="margin-bottom margin-top">Calculate hypotenuse of triangle</h2>
+      <lable>Enter base value(a) in cm:&nbsp; &nbsp; </lable>
+      <input
+        style="border: 2px solid grey; padding: 0.5rem;"
+        class="margin-bottom"
+        type="number"
+        id="input"
+        required
+      /><br />
+      <lable>Enter height value(b)in cm: </lable>
+      <input
+        style="border: 2px solid grey; padding: 0.5rem;"
+        class="margin-bottom"
+        type="number"
+        id="input"
+        required
+      /><br />
+      <button class="center margin-bottom button" id="button">
+        Calculate Hypotenuse
+      </button>
+      <h4>Hypotenuse formula : √(base² + height²)</h4>
+      <h2 class="margin-top" id="message"></h2>
+      <script src="/src/hypotenuse.js"></script>
+    </form>
+  </body>
+</html>

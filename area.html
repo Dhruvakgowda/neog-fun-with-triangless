@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Area</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="nav-bg">
+      <h1 class="text">Fun with Triangles</h1>
+      <nav id="nav">
+        <a href="index.html" class="link nav-text">Is Triangle?</a>
+        <a href="quiz.html" class="link nav-text">Quiz</a>
+        <a href="hypotenuse.html" class="link nav-text">Hypotenuse</a>
+        <a href="area.html" class="link nav-text active">Area of Triangle</a>
+      </nav>
+    </div>
+    <form style="margin: 0.5rem;" class="center" onsubmit="return false">
+      <h2 class="margin-top margin-bottom">Area of triangle</h2>
+      <lable>Enter base value(a):&nbsp; &nbsp; </lable>
+      <input
+        style="border: 2px solid grey; padding: 0.5rem;"
+        class="margin-bottom"
+        type="number"
+        id="input1"
+        required
+      /><br />
+      <lable>Enter height value (b): </lable>
+      <input
+        style="border: 2px solid grey; padding: 0.5rem;"
+        class="margin-bottom"
+        type="number"
+        id="input2"
+        required
+      /><br />
+      <button class="center button margin-bottom" id="button">
+        Calculate Area
+      </button>
+      <h3>Area formula : 1/2(base*height)</h3>
+      <h2 class="margin-top" id="message"></h2>
+      <script src="/src/area.js"></script>
+    </form>
+  </body>
+</html>
