@@ -6,7 +6,7 @@ var input2 = document.querySelector("#input2");
 function calcArea() {
   var area = 0;
   area = Number((input1.value * input2.value) / 2);
-  message.innerText = "The Area is " + area;
+  message.innerText = "The Area is " + area.toFixed(2);
 }
 
 button.addEventListener("click", calcArea);

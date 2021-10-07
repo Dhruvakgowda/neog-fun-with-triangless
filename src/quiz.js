@@ -20,9 +20,7 @@ function quizHandler() {
   var formAns = new FormData(form);
   for (var ans of formAns.values()) {
     if (ans === answers[i]) {
-      console.log(answers[i]);
       score = score + 1;
-      console.log(ans);
       console.log(formAns);
     }
     i++;

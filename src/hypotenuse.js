@@ -8,7 +8,7 @@ function calcHypotenuse() {
     hypotenuse = hypotenuse + Number(inputs[i].value * inputs[i].value);
   }
   hypotenuse = Math.sqrt(hypotenuse);
-  message.innerText = "Length of the Hypotenuse is " + hypotenuse;
+  message.innerText = "Length of the Hypotenuse is " + hypotenuse.toFixed(2);
 }
 
 button.addEventListener("click", calcHypotenuse);
